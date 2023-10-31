@@ -1,0 +1,25 @@
+{
+  "name": "marked-viewer-cli",
+  "bin": {
+    "marked": "./marked.js"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "marked": "node markdown-viewer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-html": "^0.0.9",
+    "ansi-to-html": "^0.7.2",
+    "commander": "^11.1.0",
+    "marked": "^9.1.4",
+    "term-size": "^3.0.2",
+    "terminal-link": "^3.0.0"
+  },
+	"type": "module"
+
+}

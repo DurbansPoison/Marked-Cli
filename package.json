@@ -1,0 +1,21 @@
+{
+  "name": "marked-cli",
+  "bin": {
+    "marked": "./marked.js"
+  },
+  "version": "1.0.0",
+  "description": "a cli to display markdown in the terminal",
+  "main": "marked.js",
+  "scripts": {
+    "marked": "node markdown-viewer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "marked": "^9.1.4",
+    "marked-terminal": "^6.0.0" 
+  },
+  "type": "module"
+}
